@@ -7,3 +7,24 @@ c:\users\utku\documents\visual studio 2013\Projects\hidden-tear\hidden-tear\obj\
 c:\users\utku\documents\visual studio 2013\Projects\hidden-tear\hidden-tear\obj\Debug\hidden-tear.exe
 c:\users\utku\documents\visual studio 2013\Projects\hidden-tear\hidden-tear\obj\Debug\hidden-tear.pdb
 C:\Users\utku\Documents\Visual Studio 2013\Projects\hidden-tear\hidden-tear\obj\Debug\hidden-tear.csprojResolveAssemblyReference.cache
+U:\hidden-tear\hidden-tear\bin\Debug\hidden-tear.exe.config
+U:\hidden-tear\hidden-tear\obj\Debug\hidden-tear.exe
+U:\hidden-tear\hidden-tear\obj\Debug\hidden-tear.pdb
+U:\hidden-tear\hidden-tear\obj\Debug\hidden-tear.csprojResolveAssemblyReference.cache
+U:\hidden-tear\hidden-tear\obj\Debug\hidden_tear.Form1.resources
+U:\hidden-tear\hidden-tear\obj\Debug\hidden_tear.Properties.Resources.resources
+U:\hidden-tear\hidden-tear\obj\Debug\hidden-tear.csproj.GenerateResource.Cache
+U:\hidden-tear\hidden-tear\bin\Debug\hidden-tear.exe
+U:\hidden-tear\hidden-tear\bin\Debug\hidden-tear.pdb
+W:\hidden-tear\hidden-tear\bin\Debug\hidden-tear.exe.config
+W:\hidden-tear\hidden-tear\obj\Debug\hidden-tear.exe
+W:\hidden-tear\hidden-tear\obj\Debug\hidden-tear.pdb
+W:\hidden-tear\hidden-tear\bin\Debug\hidden-tear.exe.manifest
+W:\hidden-tear\hidden-tear\bin\Debug\hidden-tear.application
+W:\hidden-tear\hidden-tear\bin\Debug\hidden-tear.exe
+W:\hidden-tear\hidden-tear\bin\Debug\hidden-tear.pdb
+W:\hidden-tear\hidden-tear\obj\Debug\hidden_tear.Form1.resources
+W:\hidden-tear\hidden-tear\obj\Debug\hidden_tear.Properties.Resources.resources
+W:\hidden-tear\hidden-tear\obj\Debug\hidden-tear.csproj.GenerateResource.Cache
+W:\hidden-tear\hidden-tear\obj\Debug\hidden-tear.exe.manifest
+W:\hidden-tear\hidden-tear\obj\Debug\hidden-tear.application

