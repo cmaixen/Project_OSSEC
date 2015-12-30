@@ -1,0 +1,45 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Checkpoint%
+}{%
+Checkpoint%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+Offlinerandsomeware}
+\APACinsertmetastar {%
+Offlinerandsomeware}%
+\begin{APACrefauthors}%
+Checkpoint.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {``Offline'' Ransomware Encrypts Your Data without C&C
+  Communication.} {``offline'' ransomware encrypts your data without c&c
+  communication.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+http://techterms.com%
+}{%
+http://techterms.com%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+malware}
+\APACinsertmetastar {%
+malware}%
+\begin{APACrefauthors}%
+http://techterms.com.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {Malware.} {Malware.}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

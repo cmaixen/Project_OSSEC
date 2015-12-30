@@ -1,0 +1,1176 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"is",
+				"is_exam_scheduled_once"
+			],
+			[
+				"RID",
+				"RID"
+			],
+			[
+				"is_sche",
+				"is_exam_scheduled_once"
+			],
+			[
+				"DA",
+				"Day"
+			],
+			[
+				"EID",
+				"EID"
+			],
+			[
+				"check",
+				"check_not_same"
+			],
+			[
+				"is_valid",
+				"is_valid_scheduling"
+			],
+			[
+				"image",
+				"image_html"
+			],
+			[
+				"main",
+				"main_program"
+			],
+			[
+				"no",
+				"notification_to_adminstrator"
+			],
+			[
+				"tar",
+				"targetusername"
+			],
+			[
+				"pl",
+				"plain_text_body"
+			],
+			[
+				"server",
+				"server_ssl"
+			],
+			[
+				"ser",
+				"server_ssl"
+			],
+			[
+				"gma",
+				"gmail_pwd"
+			],
+			[
+				"html",
+				"html_text_body"
+			],
+			[
+				"plain",
+				"plain_text_title"
+			],
+			[
+				"am",
+				"amount_of_likes_per_hour"
+			],
+			[
+				"ta",
+				"targetuserid"
+			],
+			[
+				"tare",
+				"targetusername"
+			],
+			[
+				"target",
+				"targetuserid"
+			],
+			[
+				"accou",
+				"account_name"
+			],
+			[
+				"acc",
+				"account_name"
+			],
+			[
+				"ac",
+				"account_name"
+			],
+			[
+				"bar",
+				"barcounter"
+			],
+			[
+				"new",
+				"new_amount_of_followers"
+			],
+			[
+				"Dif",
+				"DiffernceFound"
+			],
+			[
+				"old",
+				"old_database"
+			],
+			[
+				"cal",
+				"calculated_difference"
+			],
+			[
+				"DAT",
+				"DatabasException"
+			],
+			[
+				"Databs",
+				"DatabasException"
+			],
+			[
+				"data",
+				"database_full"
+			],
+			[
+				"targe",
+				"target_name"
+			],
+			[
+				"se",
+				"selected"
+			],
+			[
+				"cater",
+				"category_name"
+			],
+			[
+				"print",
+				"print_menu"
+			],
+			[
+				"Ex",
+				"Exception"
+			],
+			[
+				"add",
+				"add_data"
+			],
+			[
+				"Re",
+				"ReturnHomeException"
+			],
+			[
+				"ava",
+				"available_choices"
+			],
+			[
+				"R",
+				"ReturnHomeException"
+			],
+			[
+				"No",
+				"NoTargetUsersException"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"men",
+				"menutarget"
+			],
+			[
+				"NO",
+				"NoCategoriesException"
+			],
+			[
+				"categ",
+				"categorie"
+			],
+			[
+				"list",
+				"list_menu_target"
+			],
+			[
+				"menu",
+				"menu"
+			],
+			[
+				"targeted",
+				"targeted_user_data"
+			],
+			[
+				"cre",
+				"create_category"
+			],
+			[
+				"cra",
+				"create_element"
+			],
+			[
+				"in",
+				"intcount"
+			],
+			[
+				"incree",
+				"increase_counter"
+			],
+			[
+				"my",
+				"my_append"
+			],
+			[
+				"Result",
+				"Resultacc"
+			],
+			[
+				"targetusers",
+				"TARGETUSERS"
+			],
+			[
+				"targ",
+				"targeted_user"
+			],
+			[
+				"foll",
+				"followed-by"
+			],
+			[
+				"follo",
+				"followeramount"
+			],
+			[
+				"get",
+				"getUserDetailedInfo"
+			],
+			[
+				"fo",
+				"followed-by"
+			],
+			[
+				"user",
+				"userdetails"
+			],
+			[
+				"Followe",
+				"followed_by"
+			],
+			[
+				"pr",
+				"prompt_yn"
+			],
+			[
+				"getUser",
+				"getUserFollowers"
+			],
+			[
+				"Get",
+				"get_access_token"
+			],
+			[
+				"TARGET",
+				"TARGETUSERS"
+			],
+			[
+				"ca",
+				"category"
+			],
+			[
+				"jsno",
+				"jsonobject"
+			],
+			[
+				"json",
+				"jsonobject"
+			],
+			[
+				"account",
+				"account_name"
+			],
+			[
+				"users",
+				"users_of_applications"
+			],
+			[
+				"database",
+				"database"
+			],
+			[
+				"apl",
+				"application_info_filename"
+			],
+			[
+				"err",
+				"errorSleep"
+			],
+			[
+				"reD",
+				"read_json_file"
+			],
+			[
+				"pro",
+				"prompt"
+			],
+			[
+				"cli",
+				"client_secret"
+			],
+			[
+				"cliet",
+				"client_secret"
+			],
+			[
+				"followe",
+				"followerbase"
+			],
+			[
+				"make",
+				"make_request"
+			],
+			[
+				"load",
+				"loads"
+			],
+			[
+				"set",
+				"settings_filename"
+			],
+			[
+				"MAX_",
+				"MAX_COUNT"
+			],
+			[
+				"setting",
+				"settingfile"
+			],
+			[
+				"targr",
+				"targetusername"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"nex",
+				"next_cursor"
+			],
+			[
+				"out",
+				"out_file"
+			],
+			[
+				"Post",
+				"post_request"
+			],
+			[
+				"post",
+				"post_request"
+			],
+			[
+				"end",
+				"endpoint"
+			],
+			[
+				"reques",
+				"requesturl"
+			],
+			[
+				"client",
+				"client_name"
+			],
+			[
+				"clie",
+				"client_secret"
+			],
+			[
+				"cho",
+				"choice"
+			],
+			[
+				"choi",
+				"choices_headmenu"
+			],
+			[
+				"Data",
+				"DatabasException"
+			],
+			[
+				"File",
+				"Filename_edited"
+			],
+			[
+				"Tar",
+				"TARGETUSERS"
+			],
+			[
+				"acces",
+				"access_token"
+			],
+			[
+				"redirec",
+				"redirect_uri"
+			],
+			[
+				"Clie",
+				"client_id"
+			],
+			[
+				"auto",
+				"automessage_part_2"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"side",
+				"side-left"
+			],
+			[
+				"intro",
+				"Intro"
+			],
+			[
+				"sid",
+				"side-right"
+			],
+			[
+				"test",
+				"test_sig"
+			],
+			[
+				"co",
+				"correct_sig"
+			],
+			[
+				"gener",
+				"generate_sig"
+			],
+			[
+				"mov",
+				"moviesoup"
+			],
+			[
+				"revie",
+				"reviews"
+			],
+			[
+				"page",
+				"pagebuttons"
+			],
+			[
+				"top",
+				"topmovies"
+			],
+			[
+				"find",
+				"findAll"
+			],
+			[
+				"movie",
+				"movielink"
+			],
+			[
+				"td",
+				"td_elements"
+			],
+			[
+				"fin",
+				"findAll"
+			],
+			[
+				"ps",
+				"pseudonyms_items"
+			],
+			[
+				"authori",
+				"authorinfo"
+			],
+			[
+				"publica",
+				"publicationSpelling"
+			],
+			[
+				"p",
+				"publicationSpelling"
+			],
+			[
+				"publc",
+				"publication"
+			],
+			[
+				"public",
+				"publications_spelling"
+			],
+			[
+				"publ",
+				"publication"
+			],
+			[
+				"rating",
+				"rating"
+			],
+			[
+				"comment",
+				"commentbox"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "OSSEC-Project.tex",
+			"settings":
+			{
+				"buffer_size": 1250,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Sections/abstract.tex",
+			"settings":
+			{
+				"buffer_size": 468,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Sections/Introduction.tex",
+			"settings":
+			{
+				"buffer_size": 1175,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Sections/creation.tex",
+			"settings":
+			{
+				"buffer_size": 422,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Sections/ransomeware.tex",
+			"settings":
+			{
+				"buffer_size": 4612,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"command_palette":
+	{
+		"height": 118.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"list pac",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packe",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 534.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/yannickmerckx/MEGAsync/Unif/Master/1ste Semester/OSSEC/Project_OSSEC/Report/OSSEC-Project-Space.sublime-project",
+		"/Users/yannickmerckx/MEGAsync/Unif/Master/1ste Semester/OSSEC/Project_OSSEC/Report/Sections/appendix.tex",
+		"/Users/yannickmerckx/MEGAsync/Unif/Master/1ste Semester/OSSEC/Project_OSSEC/Report/Sections/abstract.tex",
+		"/Users/yannickmerckx/MEGAsync/Unif/Master/1ste Semester/OSSEC/Project_OSSEC/Report/Sections/evaluation.tex",
+		"/Users/yannickmerckx/MEGAsync/Unif/Master/1ste Semester/OSSEC/Project_OSSEC/Report/Sections/ransomeware.tex",
+		"/Users/yannickmerckx/MEGAsync/Unif/Master/1ste Semester/OSSEC/Project_OSSEC/Report/Sections/Introduction.tex",
+		"/Users/yannickmerckx/MEGAsync/Unif/Master/1ste Semester/OSSEC/Project_OSSEC/Report/Sections/creation.tex",
+		"/Users/yannickmerckx/MEGAsync/Unif/Master/1ste Semester/OSSEC/Project_OSSEC/Report/Sections/conclusion.tex",
+		"/Users/yannickmerckx/MEGAsync/Unif/Master/1ste Semester/OSSEC/Project_OSSEC/Report/preamble.tex",
+		"/Users/yannickmerckx/MEGAsync/Unif/Master/1ste Semester/OSSEC/Project_OSSEC/Report/OSSEC-Project.tex",
+		"/Users/yannickmerckx/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/yannickmerckx/MEGAsync/Unif/Master/1ste Semester/OSSEC/Project_OSSEC/Report/bachelorproef.tex",
+		"/Users/yannickmerckx/MEGAsync/Unif/Master/1ste Semester/Computational Game Theory/Game-Theory-Project/main.py",
+		"/Users/yannickmerckx/MEGAsync/Unif/Master/1ste Semester/Methoden van wetenschappelijk onderzoek/Assignments/Assignment 3/Assignment_3.tex",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/lib/request.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/lib/get_access_token.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/lib/emails.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/test/test_mail.py",
+		"/Users/yannickmerckx/MEGAsync/Unif/Master/1ste Semester/Computational Game Theory/Assignements/Assignement 3/report/Assignement 3.tex",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/lib/likes.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/lib/follow.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/test_mail.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/config/settings",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/lib/users.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/lib/menu.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/lib/utilities.py",
+		"/Users/yannickmerckx/MEGAsync/Unif/Master/1ste Semester/Declaratief Programmeren/Project/large_short.pl",
+		"/Users/yannickmerckx/MEGAsync/Unif/Master/1ste Semester/Declaratief Programmeren/Project/large_long.pl",
+		"/Users/yannickmerckx/MEGAsync/Unif/Master/1ste Semester/OSSEC/illustration mutal exclusion.py",
+		"/Users/yannickmerckx/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/yannickmerckx/MEGAsync/Unif/Master/1ste Semester/Methoden van wetenschappelijk onderzoek/Assignments/Assignment 2/Assignement_2_references.bib",
+		"/Users/yannickmerckx/MEGAsync/Unif/Master/1ste Semester/Methoden van wetenschappelijk onderzoek/Assignments/Assignment 1/References.bib",
+		"/Users/yannickmerckx/MEGAsync/Unif/Master/1ste Semester/Methoden van wetenschappelijk onderzoek/Assignments/Assignment 2/Assignment_2.tex",
+		"/Users/yannickmerckx/MEGAsync/Unif/Master/1ste Semester/Computational Game Theory/Assignements/Assignments Youri Coppens (2014)/taak2/new",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/database/users_of_applications",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/lib/settings.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/config/api_credentials",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/lib/followerdatabase.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/database/users_of_application",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/custom_menu.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/2482046-b409fb9d4554b0c443ba71025b7344fa4a059728/menu_launcher.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/Zinomerckx-Instagram-Marketing-Tool.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/get_access_token.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/users.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/likes.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/jsonloader.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/settings",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/lib/dump_targetusers.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/followerdatabase.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/api_credentials.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/settings.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/request.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/utilities.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/lib/__init__.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/Highontracks - Instagram-Marketing-Tool.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/Highontracks_Instagram-Marketing_Tool.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/test_signed_header.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/dump_targetusers.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/Instagram-Marketing-Tool.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/Test DB connection.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/server_side_auth.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/compass_orientdb/client.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/get_acces_token.py",
+		"/Users/yannickmerckx/Documents/Development/Instagram-Marketing-Tool/compass_orientdb/request.py",
+		"/Users/yannickmerckx/MEGAsync/Unif/Master/1ste Semester/Methoden van wetenschappelijk onderzoek/Assignments/Assignment 1/Assignment_1.tex",
+		"/Users/yannickmerckx/Desktop/bib",
+		"/Users/yannickmerckx/Library/Application Support/Sublime Text 2/Packages/User/LaTeXTools.sublime-settings",
+		"/Users/yannickmerckx/MEGAsync/Unif/Master/1ste Semester/Methoden van wetenschappelijk onderzoek/Assignments/Assignment 1/elsarticle/elsarticle-template-1-num.tex",
+		"/Users/yannickmerckx/Desktop/sendmail.asp",
+		"/Users/yannickmerckx/Desktop/Instagram_script/Instagram/test_api.py",
+		"/Users/yannickmerckx/Documents/Development/Bachelorthesis/Thesis/preamble.tex",
+		"/Users/yannickmerckx/Documents/Development/Bachelorthesis/Thesis/Sections/overfitting.tex",
+		"/Users/yannickmerckx/Documents/Development/Bachelorthesis/Thesis/Sections/lectuur.tex",
+		"/Users/yannickmerckx/Documents/Development/Websites/Food2move/wordpress/wp-content/plugins/visual-form-builder/js/i18n/validate/messages-ro_RO.js",
+		"/Users/yannickmerckx/Desktop/Mail-00093.mbox",
+		"/Users/yannickmerckx/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/yannickmerckx/Documents/Development/Bachelorthesis/Voorbereidende opdracht/Sections/conclusie.tex",
+		"/Users/yannickmerckx/Documents/Development/Bachelorthesis/Thesis/bachelorproef.bbl",
+		"/Users/yannickmerckx/Desktop/bulls-eye diagram",
+		"/Users/yannickmerckx/Documents/Development/Bachelorthesis/Thesis/Chi-square_distribution.png",
+		"/Users/yannickmerckx/Documents/Development/Bachelorthesis/Thesis/Sections/relatietotbp.tex",
+		"/Users/yannickmerckx/Documents/Development/Bachelorthesis/Thesis/Sections/abstract.tex",
+		"/Users/yannickmerckx/Documents/Development/pubdig/client/css/components/starring.styl",
+		"/Users/yannickmerckx/Documents/Development/pubdig/client/css/components/header.styl",
+		"/Users/yannickmerckx/Documents/Development/pubdig/client/css/components/button.styl",
+		"/Users/yannickmerckx/Documents/Development/pubdig/client/js/components/publications/publication-item.jsx",
+		"/Users/yannickmerckx/Documents/Development/pubdig/backend/user.js",
+		"/Users/yannickmerckx/Documents/Development/pubdig/api/user.js",
+		"/Users/yannickmerckx/Documents/Development/pubdig/api/author.js",
+		"/Users/yannickmerckx/Documents/Development/pubdig/client/js/components/profile/library.jsx",
+		"/Users/yannickmerckx/Documents/Development/pubdig/client/js/components/profile/pseudonym-item.jsx",
+		"/Users/yannickmerckx/Documents/Development/pubdig/client/js/components/profile/pseudonym.jsx",
+		"/Users/yannickmerckx/Documents/Development/pubdig/client/js/components/profile/view.jsx",
+		"/Users/yannickmerckx/Documents/Development/pubdig/backend/friendship.js",
+		"/Users/yannickmerckx/Documents/Development/pubdig/client/js/components/publications/annotation-item.jsx",
+		"/Users/yannickmerckx/Documents/Development/pubdig/lib/queries.js",
+		"/Users/yannickmerckx/Documents/Development/pubdig/client/js/components/publications/comment.jsx",
+		"/Users/yannickmerckx/Documents/Development/pubdig/client/js/components/publications/view.jsx",
+		"/Users/yannickmerckx/Documents/Development/pubdig/client/js/components/publications/annotation-list.jsx",
+		"/Users/yannickmerckx/Documents/Development/pubdig/client/js/components/publications/starring.jsx",
+		"/Users/yannickmerckx/Documents/Development/pubdig/api/rating.js",
+		"/Users/yannickmerckx/Documents/Development/pubdig/client/js/main.jsx",
+		"/Users/yannickmerckx/Documents/Development/pubdig/index.js",
+		"/Users/yannickmerckx/Documents/Development/pubdig/app.js",
+		"/Users/yannickmerckx/Documents/Development/pubdig/client/js/components/home.jsx",
+		"/Users/yannickmerckx/Documents/Development/pubdig/client/js/components/menu.jsx",
+		"/Users/yannickmerckx/Documents/Development/pubdig/client/js/components/app.jsx",
+		"/Users/yannickmerckx/Documents/Development/pubdig/client/js/routes.jsx",
+		"/Users/yannickmerckx/Documents/Development/pubdig/client/js/components/publications/list.jsx",
+		"/Users/yannickmerckx/Documents/Development/pubdig/api/annotation.js",
+		"/Users/yannickmerckx/Documents/Development/pubdig/client/js/components/publications/reference.jsx",
+		"/Users/yannickmerckx/Documents/Development/pubdig/client/js/components/card/header.jsx",
+		"/Users/yannickmerckx/Documents/Development/pubdig/client/js/components/publications/upload.jsx",
+		"/Users/yannickmerckx/MEGAsync/Unif/3de Bachelor/Bachelorproef/Bachelorproef/resultaten/MOVIEMETER - BIGRAM",
+		"/Users/yannickmerckx/MEGAsync/Unif/3de Bachelor/Bachelorproef/Bachelorproef/resultaten/MOVIEMETER-REMOVE-STOPWOORDEN",
+		"/Users/yannickmerckx/MEGAsync/Unif/3de Bachelor/Bachelorproef/Bachelorproef/resultaten/MOVIEMETER-BAG OF WORDS",
+		"/Users/yannickmerckx/Downloads/foo.bib",
+		"/Users/yannickmerckx/MEGAsync/Unif/3de Bachelor/2de Semester/Machine Learning/wpo/wpo4/WPO4.ipynb",
+		"/Users/yannickmerckx/Documents/Development/InstaStat/user_info.json",
+		"/Users/yannickmerckx/Documents/Development/pubdig/SQL/dropTables.sql",
+		"/Users/yannickmerckx/Documents/Development/pubdig/test/api/author.js",
+		"/Users/yannickmerckx/Documents/Development/pubdig/backend/author.js",
+		"/Users/yannickmerckx/Documents/Development/pubdig/test/api/keyword.js",
+		"/Users/yannickmerckx/Documents/Development/pubdig/backend/keyword.js",
+		"/Users/yannickmerckx/Documents/Development/pubdig/test/api/publication.js",
+		"/Users/yannickmerckx/Documents/Development/pubdig/test/api/affiliation.js",
+		"/Users/yannickmerckx/Documents/Development/pubdig/lib/is-publication.js",
+		"/Users/yannickmerckx/Documents/Development/pubdig/SQL/"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"we",
+			"(name{page.1})",
+			"(name{page.1}) ",
+			"(name{page.1})",
+			"(name{page.1}) ",
+			"besliss",
+			"ANOVVA",
+			"ANOVA",
+			"ANNOVA",
+			"\\ref",
+			"ANOVA",
+			"settings",
+			"users_of_application",
+			"users_of_applications",
+			"users_of",
+			"album art",
+			"december",
+			"date",
+			"quiver",
+			"load_settings",
+			"load",
+			"load_settings",
+			"load_setting",
+			"load_settings()",
+			"load",
+			"target",
+			"access_token",
+			"acces_token",
+			"stats",
+			"mime",
+			"sleep",
+			"sleeptime",
+			"sleep",
+			"sleeptime",
+			"targetuser",
+			"target",
+			"account_name",
+			"Database",
+			"selected_category",
+			"selected",
+			"new_ac",
+			"counter",
+			"menustate",
+			"targetusers_path",
+			"target",
+			"TARGETUSERS",
+			"made",
+			"reconfigured",
+			"DARPA",
+			"perform",
+			"perforn",
+			"performs",
+			"honeypot performs",
+			"honeypot perfomance",
+			"honeypot",
+			"DARPA",
+			"intensive",
+			"Proceedings",
+			"read",
+			"print",
+			"get",
+			"raw_input",
+			"users_of_applications",
+			"join",
+			"targets",
+			"join",
+			"client_name",
+			"settings",
+			"full",
+			"random",
+			"time",
+			"os",
+			"get",
+			"errorsleep",
+			"like",
+			"getUserFeed",
+			"GetUser",
+			"Usertarget",
+			"User",
+			"acces",
+			"Userbased",
+			"access_token",
+			"acces_token",
+			"getFo",
+			"get",
+			"client_secret",
+			"client_secret	",
+			"errorsleep",
+			"SLEEP",
+			"create_",
+			"create",
+			"getfo",
+			"getFol",
+			"get",
+			"access_token",
+			"Database",
+			"urllib",
+			"randmom",
+			"time",
+			"tome",
+			"os.",
+			"os",
+			"json",
+			"errorsleep",
+			"generate_header",
+			"generate",
+			"header",
+			"SLEEP_TIME",
+			"FOLLOWS",
+			"LIKES_TEMP",
+			"LIKES_TEMP	",
+			"MAX_COUNT",
+			"json.load",
+			"LIKE",
+			"override",
+			"overrid",
+			"overridde",
+			"override",
+			"MAX_SECS",
+			"passes",
+			"make_request",
+			"while contin",
+			"while ",
+			"sig",
+			"access_token",
+			"auth_tok",
+			"auth_token",
+			"dump"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"menu",
+			"users_of_application",
+			"application_info",
+			"APPLICATION_INFO",
+			"$\\sigma$",
+			"$\\alpha=0,05$",
+			"$\\alpha",
+			"$\\alpha=0,05$",
+			"Term Weighting",
+			"+ Bag of Words",
+			"Best Feature selection + Term Weighting",
+			"Best Feature selection + Bag of Words",
+			"Bigrams",
+			"$\\sigma$",
+			"$\\alpha=0,05$",
+			"BG BI",
+			"OG BI",
+			"\\sigma",
+			"\\aplha=0,05",
+			"\\aplha",
+			"{'class':",
+			"\\begin{minipage}[t]",
+			"underfitting",
+			"y_{res}",
+			"y{res}",
+			"social-default",
+			"className",
+			"class",
+			"className",
+			"recensie",
+			"sigmo\\\"ide",
+			"Pre-processing",
+			"pre-processing",
+			"algoritme",
+			"counter",
+			"1",
+			"`",
+			"code",
+			"your_redirect_ui",
+			"client_secret",
+			"client_id",
+			"lib"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "OSSEC-Project.tex",
+					"settings":
+					{
+						"buffer_size": 1250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								756,
+								756
+							]
+						],
+						"settings":
+						{
+							"enable_checkbounce_grammar": false,
+							"enable_checkbounce_spelling": true,
+							"spell_tag": 34.0,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 286.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Sections/abstract.tex",
+					"settings":
+					{
+						"buffer_size": 468,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"enable_checkbounce_grammar": false,
+							"enable_checkbounce_spelling": true,
+							"spell_tag": 35.0,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Sections/Introduction.tex",
+					"settings":
+					{
+						"buffer_size": 1175,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"enable_checkbounce_grammar": false,
+							"enable_checkbounce_spelling": true,
+							"spell_tag": 36.0,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Sections/creation.tex",
+					"settings":
+					{
+						"buffer_size": 422,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								200,
+								200
+							]
+						],
+						"settings":
+						{
+							"enable_checkbounce_grammar": false,
+							"enable_checkbounce_spelling": true,
+							"spell_tag": 38.0,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Sections/ransomeware.tex",
+					"settings":
+					{
+						"buffer_size": 4612,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4211,
+								4211
+							]
+						],
+						"settings":
+						{
+							"enable_checkbounce_grammar": false,
+							"enable_checkbounce_spelling": true,
+							"spell_tag": 5.0,
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1226.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 220.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"main.pl"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 123.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,62 @@
+% The following makes latex use nicer postscript fonts.
+
+\input{preamble.tex}
+
+
+\author{Yannick Merckx}
+\title{Security: Randsomeware}
+
+\promotortitle{Promotor}
+\promotor{Prof. dr. Martin Timmerman}
+\promotortitle{Tutor}
+\advisors{Long Peng}
+\advisortitle{Advisor}
+\faculty{Faculty of Science}
+\department{Departement of Computer Science}
+\reason{Operation Systems and Security (OSSEC)}
+\date{Januari 2016}
+\rolenumber{Student number: 500294}
+          
+\begin{document}
+
+% First dutch TitlePage
+\maketitlepage
+\setlength{\arrayrulewidth}{0.1mm}
+
+
+\lstset{language=Python}          % Set your language (you can change the language for each code-block optionally)
+
+\renewcommand{\arraystretch}{1.2}
+
+\newcommand{\image}[3]{
+\begin{figure}[H]
+    \centering 
+    \includegraphics[height=7cm]{#1}
+    \caption{#3}
+    \label{fig:#2}
+\end{figure}}
+\newpage
+
+\include{sections/abstract}
+
+\renewcommand{\contentsname}{Contents}
+\tableofcontents
+
+\include{sections/introduction}
+
+\include{sections/ransomeware}
+\begingroup
+\include{sections/creation}
+\endgroup
+\include{Sections/evaluation}
+
+\include{sections/conclusion}
+\include{sections/appendix}
+\newpage
+\nocite{*}
+\bibliographystyle{apacite}
+\bibliography{references}
+\end{document}
+    
+    
+        
