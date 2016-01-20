@@ -68,9 +68,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(58, 111);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(137, 26);
+            this.label2.Size = new System.Drawing.Size(153, 26);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Ransomeware decrypter \r\ncreated by Yannick Merckx";
+            this.label2.Text = "Ransomeware decrypter \r\ncreated by a very mean person";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
@@ -115,7 +115,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "ht decrypter";
+            this.Text = "Unlocker";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

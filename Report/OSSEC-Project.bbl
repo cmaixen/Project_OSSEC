@@ -42,4 +42,57 @@ http://techterms.com.%
 \APACrefbtitle {Malware.} {Malware.}
 \PrintBackRefs{\CurrentBib}
 
+\bibitem [\protect \citeauthoryear {%
+http://www.w3schools.com%
+}{%
+http://www.w3schools.com%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+OSstats}
+\APACinsertmetastar {%
+OSstats}%
+\begin{APACrefauthors}%
+http://www.w3schools.com.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {OS Platform Statistics and Trends.} {Os platform statistics and
+  trends.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kharraz%
+, Robertson%
+, Balzarotti%
+, Bilge%
+\BCBL {}\ \BBA {} Kirda%
+}{%
+Kharraz%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+kharrazcutting}
+\APACinsertmetastar {%
+kharrazcutting}%
+\begin{APACrefauthors}%
+Kharraz, A.%
+, Robertson, W.%
+, Balzarotti, D.%
+, Bilge, L.%
+\BCBL {}\ \BBA {} Kirda, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Cutting the Gordian Knot: A Look Under the Hood of
+  Ransomware Attacks} {Cutting the gordian knot: A look under the hood of
+  ransomware attacks}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
 \end{thebibliography}

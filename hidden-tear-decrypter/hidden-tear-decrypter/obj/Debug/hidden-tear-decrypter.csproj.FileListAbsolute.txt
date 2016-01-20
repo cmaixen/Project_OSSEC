@@ -14,12 +14,12 @@ U:\hidden-tear-decrypter\hidden-tear-decrypter\bin\Debug\hidden-tear-decrypter.p
 U:\hidden-tear-decrypter\hidden-tear-decrypter\obj\Debug\hidden_tear_decrypter.Form1.resources
 U:\hidden-tear-decrypter\hidden-tear-decrypter\obj\Debug\hidden_tear_decrypter.Properties.Resources.resources
 U:\hidden-tear-decrypter\hidden-tear-decrypter\obj\Debug\hidden-tear-decrypter.csproj.GenerateResource.Cache
-W:\hidden-tear-decrypter\hidden-tear-decrypter\bin\Debug\hidden-tear-decrypter.exe.config
-W:\hidden-tear-decrypter\hidden-tear-decrypter\obj\Debug\hidden-tear-decrypter.exe
-W:\hidden-tear-decrypter\hidden-tear-decrypter\obj\Debug\hidden-tear-decrypter.pdb
-W:\hidden-tear-decrypter\hidden-tear-decrypter\bin\Debug\hidden-tear-decrypter.exe
-W:\hidden-tear-decrypter\hidden-tear-decrypter\bin\Debug\hidden-tear-decrypter.pdb
 W:\hidden-tear-decrypter\hidden-tear-decrypter\obj\Debug\hidden-tear-decrypter.csprojResolveAssemblyReference.cache
 W:\hidden-tear-decrypter\hidden-tear-decrypter\obj\Debug\hidden_tear_decrypter.Form1.resources
 W:\hidden-tear-decrypter\hidden-tear-decrypter\obj\Debug\hidden_tear_decrypter.Properties.Resources.resources
 W:\hidden-tear-decrypter\hidden-tear-decrypter\obj\Debug\hidden-tear-decrypter.csproj.GenerateResource.Cache
+W:\hidden-tear-decrypter\hidden-tear-decrypter\bin\Debug\Unlocker.exe.config
+W:\hidden-tear-decrypter\hidden-tear-decrypter\bin\Debug\Unlocker.exe
+W:\hidden-tear-decrypter\hidden-tear-decrypter\bin\Debug\Unlocker.pdb
+W:\hidden-tear-decrypter\hidden-tear-decrypter\obj\Debug\Unlocker.exe
+W:\hidden-tear-decrypter\hidden-tear-decrypter\obj\Debug\Unlocker.pdb
